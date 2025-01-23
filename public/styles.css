@@ -1,0 +1,105 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Letras brancas */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #fff; /* Título em branco */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para a vaquinha */
+.vaquinha-card {
+    background-color: #1a1a1a; /* Fundo escuro para o card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.vaquinha-card h2 {
+    font-size: 2rem;
+    color: #fff; /* Texto em branco */
+    margin-bottom: 10px;
+}
+
+.vaquinha-card p {
+    font-size: 1.2rem;
+    color: #ccc; /* Texto em cinza claro */
+    margin-bottom: 10px;
+}
+
+/* Barra de progresso */
+.progress-bar {
+    background-color: #333; /* Fundo escuro para a barra de progresso */
+    border-radius: 10px;
+    overflow: hidden;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.progress {
+    background-color: #ff4081; /* Rosa pink para a barra de progresso */
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* Valores arrecadados e meta */
+.valores {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.valores div {
+    text-align: center;
+}
+
+.valores h3 {
+    font-size: 1.5rem;
+    color: #fff; /* Texto em branco */
+    margin-bottom: 5px;
+}
+
+.valores p {
+    font-size: 1rem;
+    color: #ccc; /* Texto em cinza claro */
+}
+
+/* Botão de doação */
+.btn-doar {
+    background-color: #ff4081; /* Rosa pink */
+    color: #fff; /* Texto em branco */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease; /* Efeito de transição */
+}
+
+.btn-doar:hover {
+    background-color: #e91e63; /* Rosa pink mais escuro no hover */
+}
+
+/* Estilos para o número de apoiadores */
+.apoiadores {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ccc; /* Texto em cinza claro */
+    margin-top: 20px;
+}
